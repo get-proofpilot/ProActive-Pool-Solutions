@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
                 <h2 className="text-3xl md:text-6xl font-black text-white mb-4 md:mb-6 leading-[0.95] tracking-tight">
                   Ready For A ProActive Experience?
                 </h2>
-                <p className="text-cyan-50 font-medium text-base md:text-xl max-w-2xl leading-relaxed mx-auto lg:mx-0">
+                <p className="text-cyan-50 font-medium text-lg md:text-2xl max-w-2xl leading-relaxed mx-auto lg:mx-0">
                   Stop stressing over chemistry and filters. Let the experts in Wendell & Raleigh handle it. 
                 </p>
             </div>
@@ -56,39 +56,39 @@ export const Footer: React.FC = () => {
                             <span className="text-[8px] font-bold text-slate-500 tracking-[0.3em] pl-1 uppercase w-full text-center border-t border-slate-200 mt-1 pt-0.5">Pool Solutions</span>
                         </div>
                     </div>
-                    <p className="text-slate-400 font-medium leading-relaxed max-w-sm mb-8 text-base md:text-lg">
+                    <p className="text-slate-400 font-medium leading-relaxed max-w-sm mb-8 text-xl md:text-2xl">
                         ProActive Pool Solutions is Wendell, NC's premier pool service provider. We don't just clean; we ensure longevity, safety, and a worry-free ownership experience for our neighbors.
                     </p>
                     <div className="flex gap-4">
-                        <a href="#" className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
-                            <Instagram size={24} />
+                        <a href="#" className="w-14 h-14 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
+                            <Instagram size={28} />
                         </a>
-                        <a href="#" className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
-                            <Facebook size={24} />
+                        <a href="#" className="w-14 h-14 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
+                            <Facebook size={28} />
                         </a>
-                        <a href="#" className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
-                            <UserCircle size={24} />
+                        <a href="#" className="w-14 h-14 rounded-lg bg-slate-800 flex items-center justify-center text-white hover:bg-[#06b6d4] transition-colors border border-slate-700">
+                            <UserCircle size={28} />
                         </a>
                     </div>
                 </div>
 
                 {/* Column 2: Services (SEO Keyword Rich) */}
                 <div>
-                    <h4 className="font-black text-white mb-6 tracking-wide text-xl">Our Services</h4>
-                    <ul className="space-y-3 text-slate-400 font-medium text-base">
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Weekly Pool Cleaning</a></li>
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Bi-Weekly Maintenance</a></li>
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Green-to-Clean Service</a></li>
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Pool Equipment Repair</a></li>
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Chemical Balancing</a></li>
-                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={14} className="text-[#06b6d4]"/> Pool Inspections</a></li>
+                    <h4 className="font-black text-white mb-6 tracking-wide text-3xl">Our Services</h4>
+                    <ul className="space-y-4 text-slate-400 font-medium text-xl">
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Weekly Pool Cleaning</a></li>
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Bi-Weekly Maintenance</a></li>
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Green-to-Clean Service</a></li>
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Pool Equipment Repair</a></li>
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Chemical Balancing</a></li>
+                        <li><a href="#services" className="hover:text-[#06b6d4] transition-colors flex items-center gap-2"><ArrowRight size={18} className="text-[#06b6d4]"/> Pool Inspections</a></li>
                     </ul>
                 </div>
 
                 {/* Column 3: Service Areas (Local SEO) */}
                 <div>
-                    <h4 className="font-black text-white mb-6 tracking-wide text-xl">Service Areas</h4>
-                    <ul className="space-y-3 text-slate-400 font-medium text-base">
+                    <h4 className="font-black text-white mb-6 tracking-wide text-3xl">Service Areas</h4>
+                    <ul className="space-y-4 text-slate-400 font-medium text-xl">
                         <li><a href="#" className="hover:text-[#06b6d4] transition-colors">Pool Service Wendell, NC</a></li>
                         <li><a href="#" className="hover:text-[#06b6d4] transition-colors">Pool Service Raleigh, NC</a></li>
                         <li><a href="#" className="hover:text-[#06b6d4] transition-colors">Pool Service Wake Forest, NC</a></li>
@@ -100,22 +100,22 @@ export const Footer: React.FC = () => {
 
                 {/* Column 4: Contact Info */}
                 <div>
-                    <h4 className="font-black text-white mb-6 tracking-wide text-xl">Contact Us</h4>
-                    <div className="space-y-4 text-slate-400 font-medium text-base">
-                         <div className="flex items-start gap-3">
-                            <MapPin className="text-[#06b6d4] mt-1 shrink-0" size={20} />
+                    <h4 className="font-black text-white mb-6 tracking-wide text-3xl">Contact Us</h4>
+                    <div className="space-y-5 text-slate-400 font-medium text-xl">
+                         <div className="flex items-start gap-4">
+                            <MapPin className="text-[#06b6d4] mt-1 shrink-0" size={24} />
                             <span>Wendell, NC 27591<br/>Serving Wake County</span>
                          </div>
-                         <div className="flex items-center gap-3">
-                            <Phone className="text-[#06b6d4] shrink-0" size={20} />
+                         <div className="flex items-center gap-4">
+                            <Phone className="text-[#06b6d4] shrink-0" size={24} />
                             <a href="tel:919-555-0199" className="hover:text-white transition-colors">(919) 555-0199</a>
                          </div>
-                         <div className="flex items-center gap-3">
-                            <Mail className="text-[#06b6d4] shrink-0" size={20} />
+                         <div className="flex items-center gap-4">
+                            <Mail className="text-[#06b6d4] shrink-0" size={24} />
                             <a href="mailto:service@proactive.io" className="hover:text-white transition-colors">service@proactive.io</a>
                          </div>
-                         <div className="flex items-start gap-3 pt-2">
-                            <Clock className="text-[#06b6d4] mt-1 shrink-0" size={20} />
+                         <div className="flex items-start gap-4 pt-2">
+                            <Clock className="text-[#06b6d4] mt-1 shrink-0" size={24} />
                             <span>Mon - Fri: 8am - 6pm<br/>Sat: By Appointment</span>
                          </div>
                     </div>
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
             </div>
 
             {/* Embedded Map Row */}
-            <div className="border-t border-slate-800 pt-8 md:pt-12 pb-8">
+            <div className="border-t border-slate-800 pt-10 md:pt-14 pb-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                     <div className="lg:col-span-2 h-48 md:h-64 w-full rounded-2xl overflow-hidden border-4 border-slate-800 grayscale hover:grayscale-0 transition-all duration-500 relative group">
                          <iframe 
@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
                     </div>
                     <div className="lg:col-span-1">
                         <h4 className="font-black text-white text-xl md:text-2xl mb-4">Locally Owned & Operated</h4>
-                        <p className="text-slate-400 mb-6 leading-relaxed text-base md:text-lg">
+                        <p className="text-slate-400 mb-6 leading-relaxed text-lg md:text-xl">
                             We are proud to be part of the local community. When you hire ProActive, you aren't just getting a cleaner; you're hiring a neighbor who cares about the health and safety of your backyard oasis.
                         </p>
                         <Button variant="outline" className="w-full border-slate-600 text-slate-300 hover:border-[#06b6d4] hover:text-[#06b6d4] text-lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -150,9 +150,9 @@ export const Footer: React.FC = () => {
             </div>
 
             {/* Bottom Copyright */}
-            <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-bold text-slate-600 tracking-wider text-center md:text-left">
+            <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-lg font-bold text-slate-600 tracking-wider text-center md:text-left">
                 <div>&copy; {new Date().getFullYear()} ProActive Pool Solutions. All Rights Reserved.</div>
-                <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+                <div className="flex flex-wrap justify-center gap-4 md:gap-8">
                     <a href="#" className="hover:text-[#06b6d4] transition-colors">Privacy Policy</a>
                     <a href="#" className="hover:text-[#06b6d4] transition-colors">Terms of Service</a>
                     <a href="#" className="hover:text-[#06b6d4] transition-colors">Sitemap</a>

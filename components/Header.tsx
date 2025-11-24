@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Menu, X, MapPin, Facebook, Instagram, UserCircle, ChevronDown, Droplets, Wrench, Sparkles, ClipboardCheck, Repeat, ShieldCheck } from 'lucide-react';
+import { Phone, Menu, X, MapPin, Facebook, Instagram, UserCircle, ChevronDown, Repeat, ShieldCheck, Sparkles, Wrench, Droplets, ClipboardCheck } from 'lucide-react';
 import { Button } from './UI';
 
 export const Header: React.FC = () => {
@@ -14,24 +14,24 @@ export const Header: React.FC = () => {
   return (
     <header className="w-full flex flex-col z-50 relative font-sans">
       {/* Top Bar */}
-      <div className="bg-[#1a202c] text-white py-3 px-4 text-xs md:text-sm font-bold tracking-wide hidden md:flex justify-end items-center">
+      <div className="bg-[#1a202c] text-white py-3 px-4 text-base md:text-lg font-bold tracking-wide hidden md:flex justify-end items-center">
         <div className="max-w-[1400px] w-full mx-auto flex justify-end items-center gap-6">
            <div className="flex items-center gap-4 text-white/90">
-              <span className="text-sm text-white/60 mr-2 hidden lg:inline">Follow us:</span>
-              <a href="#" className="hover:text-[#06b6d4] transition-colors"><Instagram size={16} /></a>
-              <a href="#" className="hover:text-[#06b6d4] transition-colors"><Facebook size={16} /></a>
+              <span className="text-lg text-white/60 mr-2 hidden lg:inline">Follow us:</span>
+              <a href="#" className="hover:text-[#06b6d4] transition-colors"><Instagram size={20} /></a>
+              <a href="#" className="hover:text-[#06b6d4] transition-colors"><Facebook size={20} /></a>
            </div>
            <div className="h-4 w-px bg-white/20"></div>
            <div className="flex items-center gap-2">
-             <MapPin size={16} className="text-[#06b6d4]" fill="currentColor" /> <span>Wendell, Raleigh, Wake Forest, Cary</span>
+             <MapPin size={20} className="text-[#06b6d4]" fill="currentColor" /> <span>Wendell, Raleigh, Wake Forest, Cary</span>
            </div>
            <div className="h-4 w-px bg-white/20"></div>
            <a href="tel:919-555-0199" className="flex items-center gap-2 hover:text-[#06b6d4] transition-colors">
-            <Phone size={16} className="text-[#06b6d4]" fill="currentColor" /> <span>(919) 555-0199</span>
+            <Phone size={20} className="text-[#06b6d4]" fill="currentColor" /> <span>(919) 555-0199</span>
           </a>
            <div className="h-4 w-px bg-white/20"></div>
            <a href="#" className="flex items-center gap-2 hover:text-[#06b6d4] transition-colors">
-             <UserCircle size={16} className="text-[#06b6d4]" /> <span>Client Portal</span>
+             <UserCircle size={20} className="text-[#06b6d4]" /> <span>Client Portal</span>
            </a>
         </div>
       </div>
@@ -58,61 +58,61 @@ export const Header: React.FC = () => {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden xl:flex items-center gap-8 font-bold text-slate-800 text-lg tracking-tight">
+          <nav className="hidden xl:flex items-center gap-8 font-bold text-slate-800 text-2xl tracking-tight">
             <a href="#home" className="hover:text-[#06b6d4] transition-colors scroll-smooth">Home</a>
             
             {/* Mega Menu Trigger */}
             <div className="group relative py-4">
               <a href="#services" className="flex items-center gap-1 hover:text-[#06b6d4] transition-colors cursor-pointer">
-                Our Services <ChevronDown size={16} strokeWidth={3} className="group-hover:rotate-180 transition-transform duration-300" />
+                Our Services <ChevronDown size={20} strokeWidth={3} className="group-hover:rotate-180 transition-transform duration-300" />
               </a>
 
               {/* Mega Menu Dropdown */}
-              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[800px] bg-white shadow-2xl rounded-2xl border border-slate-100 p-6 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 z-50 grid grid-cols-2 gap-8">
+              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[900px] bg-white shadow-2xl rounded-2xl border border-slate-100 p-8 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 z-50 grid grid-cols-2 gap-10">
                   
                   {/* Column 1: Recurring Plans */}
-                  <div className="space-y-4">
-                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">Maintenance Plans</h4>
-                      <a href="#services" className="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors group/item">
-                          <div className="w-10 h-10 rounded-lg bg-cyan-50 text-[#06b6d4] flex items-center justify-center group-hover/item:bg-[#06b6d4] group-hover/item:text-white transition-colors">
-                              <Repeat size={20} />
+                  <div className="space-y-6">
+                      <h4 className="text-base font-black text-slate-400 uppercase tracking-widest mb-3">Maintenance Plans</h4>
+                      <a href="#services" className="flex items-start gap-5 p-4 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                          <div className="w-14 h-14 rounded-lg bg-cyan-50 text-[#06b6d4] flex items-center justify-center group-hover/item:bg-[#06b6d4] group-hover/item:text-white transition-colors">
+                              <Repeat size={28} />
                           </div>
                           <div>
-                              <div className="font-black text-slate-900 text-lg mb-1">Weekly Maintenance</div>
-                              <p className="text-sm text-slate-500 font-medium leading-relaxed">Complete hands-off care. We handle everything every week.</p>
+                              <div className="font-black text-slate-900 text-2xl mb-1">Weekly Maintenance</div>
+                              <p className="text-lg text-slate-500 font-medium leading-relaxed">Complete hands-off care. We handle everything every week.</p>
                           </div>
                       </a>
-                      <a href="#services" className="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors group/item">
-                          <div className="w-10 h-10 rounded-lg bg-cyan-50 text-[#06b6d4] flex items-center justify-center group-hover/item:bg-[#06b6d4] group-hover/item:text-white transition-colors">
-                              <ShieldCheck size={20} />
+                      <a href="#services" className="flex items-start gap-5 p-4 rounded-xl hover:bg-slate-50 transition-colors group/item">
+                          <div className="w-14 h-14 rounded-lg bg-cyan-50 text-[#06b6d4] flex items-center justify-center group-hover/item:bg-[#06b6d4] group-hover/item:text-white transition-colors">
+                              <ShieldCheck size={28} />
                           </div>
                           <div>
-                              <div className="font-black text-slate-900 text-lg mb-1">Bi-Weekly Maintenance</div>
-                              <p className="text-sm text-slate-500 font-medium leading-relaxed">Perfect for screened pools and budget-conscious owners.</p>
+                              <div className="font-black text-slate-900 text-2xl mb-1">Bi-Weekly Maintenance</div>
+                              <p className="text-lg text-slate-500 font-medium leading-relaxed">Perfect for screened pools and budget-conscious owners.</p>
                           </div>
                       </a>
                   </div>
 
                   {/* Column 2: Specialized Services */}
-                  <div className="space-y-4">
-                      <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">Specialized Solutions</h4>
-                      <div className="grid grid-cols-2 gap-2">
-                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-base font-bold text-slate-700 hover:text-[#06b6d4]">
-                            <Sparkles size={18} className="text-[#06b6d4]" /> Green-to-Clean
+                  <div className="space-y-6">
+                      <h4 className="text-base font-black text-slate-400 uppercase tracking-widest mb-3">Specialized Solutions</h4>
+                      <div className="grid grid-cols-2 gap-3">
+                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-xl font-bold text-slate-700 hover:text-[#06b6d4]">
+                            <Sparkles size={22} className="text-[#06b6d4]" /> Green-to-Clean
                         </a>
-                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-base font-bold text-slate-700 hover:text-[#06b6d4]">
-                            <Wrench size={18} className="text-[#06b6d4]" /> Equipment Repair
+                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-xl font-bold text-slate-700 hover:text-[#06b6d4]">
+                            <Wrench size={22} className="text-[#06b6d4]" /> Equipment Repair
                         </a>
-                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-base font-bold text-slate-700 hover:text-[#06b6d4]">
-                            <Droplets size={18} className="text-[#06b6d4]" /> Chemical Balancing
+                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-xl font-bold text-slate-700 hover:text-[#06b6d4]">
+                            <Droplets size={22} className="text-[#06b6d4]" /> Chemical Balancing
                         </a>
-                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-base font-bold text-slate-700 hover:text-[#06b6d4]">
-                            <ClipboardCheck size={18} className="text-[#06b6d4]" /> Pool Inspections
+                        <a href="#services" className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors text-xl font-bold text-slate-700 hover:text-[#06b6d4]">
+                            <ClipboardCheck size={22} className="text-[#06b6d4]" /> Pool Inspections
                         </a>
                       </div>
                       
-                      <div className="pt-4 border-t border-slate-100 mt-2">
-                          <Button size="sm" className="w-full text-base" onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}>
+                      <div className="pt-6 border-t border-slate-100 mt-4">
+                          <Button size="md" className="w-full text-xl" onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}>
                               Get A Custom Quote
                           </Button>
                       </div>
@@ -124,7 +124,7 @@ export const Header: React.FC = () => {
             <a href="#articles" className="hover:text-[#06b6d4] transition-colors scroll-smooth">Articles</a>
             <a href="#contact" className="hover:text-[#06b6d4] transition-colors scroll-smooth">Contact</a>
             
-            <Button size="md" className="ml-2 px-8 text-lg" onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button size="md" className="ml-4 px-10 text-2xl" onClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}>
               Get Your Price Now
             </Button>
           </nav>
